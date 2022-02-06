@@ -3,7 +3,9 @@ import React from 'react';
 import './Movies.css';
 import {useState,useEffect} from "react";
 
-const API ="http://localhost:9000";
+// const API ="http://localhost:9000";
+
+const API = "https://hacknode1.herokuapp.com";
 
 function MovieList(){
     const [mov,setMov] = useState([]);
