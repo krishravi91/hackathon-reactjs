@@ -1,0 +1,46 @@
+.topbar{
+    width:100%;
+    height:45px;
+    background-color: rgb(39, 37, 48);
+    display:flex;
+    align-items: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;    
+}
+
+.topbar-left{
+    flex: 6;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar-right{
+    flex: 3;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar-left-list{
+    display: flex;
+    list-style: none;
+    
+}
+
+.topbar-right-list{
+    display: flex;
+    list-style: none;
+}
+
+.topbar-left-list-items{
+    margin-right: 22px;
+    font-size: 14px;
+}
+
+.topbar-right-list-items{
+    margin-right: 22px;
+    font-size: 14px;
+}

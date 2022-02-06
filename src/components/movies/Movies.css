@@ -1,0 +1,37 @@
+.movie-container{
+    text-align: center;
+    background: white;
+    height:400px;
+    width: 400px;
+    border-radius: 16px;
+    overflow:hidden;
+    margin-top: 20px;
+    transition:0.2s;
+  
+}
+
+.movie-container:hover{
+    transform:scale(1.1);
+}
+.movie-pic{
+    height:80%;
+    width:100%;
+    object-fit: cover;
+}
+
+.movie-name{
+    font-size: 30px;
+    margin-top: 2px
+}
+
+body{
+    background-color: whitesmoke;
+    margin: 24px;
+}
+
+.movie-list{
+    display:flex;
+    flex-wrap: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
